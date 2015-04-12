@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+   	<!-- 
+   	全局变量
+	<parameter name="username" value="root2"/>
+	<parameter name="password" value="pwd2"/>
+	 -->
+	<test name="Test">
+		<!-- 
+		局部变量
+		<parameter name="username" value="root2"/>
+		<parameter name="password" value="pwd2"/>
+		 -->
+		<classes>
+			<class name="test.DataFromCsv"/>
+		</classes>
+	</test>
+</suite>

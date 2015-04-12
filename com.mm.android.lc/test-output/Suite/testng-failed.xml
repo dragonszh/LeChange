@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="testStatic(failed)">
+    <groups>
+      <run>
+        <include name="1"/>
+        <exclude name="2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.com.mm.android.lc.testStatic">
+        <methods>
+          <include name="test0002"/>
+          <include name="test0003"/>
+        </methods>
+      </class> <!-- test.com.mm.android.lc.testStatic -->
+    </classes>
+  </test> <!-- testStatic(failed) -->
+</suite> <!-- Failed suite [Suite] -->
